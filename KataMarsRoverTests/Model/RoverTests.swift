@@ -76,69 +76,69 @@ class KataMarsRoverTests: XCTestCase {
         XCTAssertEqual(sut!.direction, MAIN_DIR)
     }
     
-    func testMoveRoverRight() {
+    func testMoveRoverRightReturnsEast() {
         sut!.move(movements: "R")
         
         XCTAssertEqual(sut!.direction, Direction.East)
     }
     
-    func testMoveRoverRightTwice() {
+    func testMoveRoverRightTwiceReturnsSouth() {
         sut!.move(movements: "RR")
         
         XCTAssertEqual(sut!.direction, Direction.South)
     }
     
-    func testMoveRoverRightThrice() {
+    func testMoveRoverRightThriceReturnsWest() {
         sut!.move(movements: "RRR")
         
         XCTAssertEqual(sut!.direction, Direction.West)
     }
     
-    func testMoveRoverRightFourTimes() {
+    func testMoveRoverRightFourTimesReturnsTheSame() {
         sut!.move(movements: "RRRR")
         
         XCTAssertEqual(sut!.direction, Direction.North)
     }
     
-    func testMoveRoverLeft() {
+    func testMoveRoverLeftReturnsWest() {
         sut!.move(movements: "L")
         
         XCTAssertEqual(sut!.direction, Direction.West)
     }
     
-    func testMoveRoverLeftTwice() {
+    func testMoveRoverLeftTwiceReturnsSouth() {
         sut!.move(movements: "LL")
         
         XCTAssertEqual(sut!.direction, Direction.South)
     }
     
-    func testMoveRoverLeftThrice() {
+    func testMoveRoverLeftThriceReturnsEast() {
         sut!.move(movements: "LLL")
         
         XCTAssertEqual(sut!.direction, Direction.East)
     }
     
-    func testMoveRoverLeftFourTimes() {
+    func testMoveRoverLeftFourTimesReturnsTheSame() {
         sut!.move(movements: "LLLL")
     
         XCTAssertEqual(sut!.direction, Direction.North)
     }
 
-    func testTurnRoverLeft() {
+    func testTurnRoverLeftReturnsWest() {
         sut = Rover(direction: MAIN_DIR)
         sut!.turn(movement: "L")
         
         XCTAssertEqual(sut!.direction, Direction.West)
     }
     
-    func testTurnRoverRight() {
+    func testTurnRoverRightReturnsEast() {
         sut = Rover(direction: MAIN_DIR)
         sut!.turn(movement: "R")
         
         XCTAssertEqual(sut!.direction, Direction.East)
     }
     
-    func testMoveLeftThenRight() {
+    func testMoveLeftThenRightReturnsTheSame() {
         let initialDirection = sut!.direction
         sut!.move(movements: "LR")
         
