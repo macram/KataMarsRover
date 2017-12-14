@@ -33,10 +33,8 @@ class Rover {
     }
     
     func move(movements: String) {
-        var moves = movements
-        while !moves.isEmpty {
-            turn(movement: moves.first!)
-            moves = String(moves.dropFirst())
+        for char in movements {
+            turn(movement: char)
         }
     }
     
@@ -47,7 +45,6 @@ class Rover {
             case Direction.East: direction = Direction.North
             case Direction.South: direction = Direction.East
             case Direction.West: direction = Direction.South
-            default: break
             }
         }
         else if movement == "R" {
@@ -56,7 +53,6 @@ class Rover {
             case Direction.East: direction = Direction.South
             case Direction.South: direction = Direction.West
             case Direction.West: direction = Direction.North
-            default: break
             }
         }
     }
