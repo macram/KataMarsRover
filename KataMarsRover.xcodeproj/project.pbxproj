@@ -12,8 +12,9 @@
 		CEF56C101FE273B900487496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF56C0E1FE273B900487496 /* Main.storyboard */; };
 		CEF56C121FE273B900487496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF56C111FE273B900487496 /* Assets.xcassets */; };
 		CEF56C151FE273B900487496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF56C131FE273B900487496 /* LaunchScreen.storyboard */; };
-		CEF56C201FE273B900487496 /* KataMarsRoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C1F1FE273B900487496 /* KataMarsRoverTests.swift */; };
+		CEF56C201FE273B900487496 /* RoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C1F1FE273B900487496 /* RoverTests.swift */; };
 		CEF56C2B1FE273B900487496 /* KataMarsRoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C2A1FE273B900487496 /* KataMarsRoverUITests.swift */; };
+		CEF56C3B1FE2748600487496 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C3A1FE2748600487496 /* Rover.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +43,12 @@
 		CEF56C141FE273B900487496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEF56C161FE273B900487496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEF56C1B1FE273B900487496 /* KataMarsRoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataMarsRoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEF56C1F1FE273B900487496 /* KataMarsRoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataMarsRoverTests.swift; sourceTree = "<group>"; };
+		CEF56C1F1FE273B900487496 /* RoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverTests.swift; sourceTree = "<group>"; };
 		CEF56C211FE273B900487496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEF56C261FE273B900487496 /* KataMarsRoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataMarsRoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF56C2A1FE273B900487496 /* KataMarsRoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataMarsRoverUITests.swift; sourceTree = "<group>"; };
 		CEF56C2C1FE273B900487496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF56C3A1FE2748600487496 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		CEF56C091FE273B900487496 /* KataMarsRover */ = {
 			isa = PBXGroup;
 			children = (
+				CEF56C391FE2746E00487496 /* Model */,
 				CEF56C0A1FE273B900487496 /* AppDelegate.swift */,
 				CEF56C0C1FE273B900487496 /* ViewController.swift */,
 				CEF56C0E1FE273B900487496 /* Main.storyboard */,
@@ -110,7 +113,7 @@
 		CEF56C1E1FE273B900487496 /* KataMarsRoverTests */ = {
 			isa = PBXGroup;
 			children = (
-				CEF56C1F1FE273B900487496 /* KataMarsRoverTests.swift */,
+				CEF56C381FE273D200487496 /* Model */,
 				CEF56C211FE273B900487496 /* Info.plist */,
 			);
 			path = KataMarsRoverTests;
@@ -123,6 +126,22 @@
 				CEF56C2C1FE273B900487496 /* Info.plist */,
 			);
 			path = KataMarsRoverUITests;
+			sourceTree = "<group>";
+		};
+		CEF56C381FE273D200487496 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEF56C1F1FE273B900487496 /* RoverTests.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEF56C391FE2746E00487496 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEF56C3A1FE2748600487496 /* Rover.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +280,7 @@
 			files = (
 				CEF56C0D1FE273B900487496 /* ViewController.swift in Sources */,
 				CEF56C0B1FE273B900487496 /* AppDelegate.swift in Sources */,
+				CEF56C3B1FE2748600487496 /* Rover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF56C201FE273B900487496 /* KataMarsRoverTests.swift in Sources */,
+				CEF56C201FE273B900487496 /* RoverTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
