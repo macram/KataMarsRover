@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEF56C0B1FE273B900487496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C0A1FE273B900487496 /* AppDelegate.swift */; };
+		CEF56C0D1FE273B900487496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C0C1FE273B900487496 /* ViewController.swift */; };
+		CEF56C101FE273B900487496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF56C0E1FE273B900487496 /* Main.storyboard */; };
+		CEF56C121FE273B900487496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF56C111FE273B900487496 /* Assets.xcassets */; };
+		CEF56C151FE273B900487496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF56C131FE273B900487496 /* LaunchScreen.storyboard */; };
+		CEF56C201FE273B900487496 /* KataMarsRoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C1F1FE273B900487496 /* KataMarsRoverTests.swift */; };
+		CEF56C2B1FE273B900487496 /* KataMarsRoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C2A1FE273B900487496 /* KataMarsRoverUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF56C1C1FE273B900487496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF56BFF1FE273B800487496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF56C061FE273B900487496;
+			remoteInfo = KataMarsRover;
+		};
+		CEF56C271FE273B900487496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF56BFF1FE273B800487496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF56C061FE273B900487496;
+			remoteInfo = KataMarsRover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEF56C071FE273B900487496 /* KataMarsRover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KataMarsRover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF56C0A1FE273B900487496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEF56C0C1FE273B900487496 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEF56C0F1FE273B900487496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF56C111FE273B900487496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF56C141FE273B900487496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF56C161FE273B900487496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF56C1B1FE273B900487496 /* KataMarsRoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataMarsRoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF56C1F1FE273B900487496 /* KataMarsRoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataMarsRoverTests.swift; sourceTree = "<group>"; };
+		CEF56C211FE273B900487496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF56C261FE273B900487496 /* KataMarsRoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataMarsRoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF56C2A1FE273B900487496 /* KataMarsRoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataMarsRoverUITests.swift; sourceTree = "<group>"; };
+		CEF56C2C1FE273B900487496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF56C041FE273B900487496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF56C181FE273B900487496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF56C231FE273B900487496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF56BFE1FE273B800487496 = {
+			isa = PBXGroup;
+			children = (
+				CEF56C091FE273B900487496 /* KataMarsRover */,
+				CEF56C1E1FE273B900487496 /* KataMarsRoverTests */,
+				CEF56C291FE273B900487496 /* KataMarsRoverUITests */,
+				CEF56C081FE273B900487496 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF56C081FE273B900487496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF56C071FE273B900487496 /* KataMarsRover.app */,
+				CEF56C1B1FE273B900487496 /* KataMarsRoverTests.xctest */,
+				CEF56C261FE273B900487496 /* KataMarsRoverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF56C091FE273B900487496 /* KataMarsRover */ = {
+			isa = PBXGroup;
+			children = (
+				CEF56C0A1FE273B900487496 /* AppDelegate.swift */,
+				CEF56C0C1FE273B900487496 /* ViewController.swift */,
+				CEF56C0E1FE273B900487496 /* Main.storyboard */,
+				CEF56C111FE273B900487496 /* Assets.xcassets */,
+				CEF56C131FE273B900487496 /* LaunchScreen.storyboard */,
+				CEF56C161FE273B900487496 /* Info.plist */,
+			);
+			path = KataMarsRover;
+			sourceTree = "<group>";
+		};
+		CEF56C1E1FE273B900487496 /* KataMarsRoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF56C1F1FE273B900487496 /* KataMarsRoverTests.swift */,
+				CEF56C211FE273B900487496 /* Info.plist */,
+			);
+			path = KataMarsRoverTests;
+			sourceTree = "<group>";
+		};
+		CEF56C291FE273B900487496 /* KataMarsRoverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF56C2A1FE273B900487496 /* KataMarsRoverUITests.swift */,
+				CEF56C2C1FE273B900487496 /* Info.plist */,
+			);
+			path = KataMarsRoverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF56C061FE273B900487496 /* KataMarsRover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF56C2F1FE273B900487496 /* Build configuration list for PBXNativeTarget "KataMarsRover" */;
+			buildPhases = (
+				CEF56C031FE273B900487496 /* Sources */,
+				CEF56C041FE273B900487496 /* Frameworks */,
+				CEF56C051FE273B900487496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KataMarsRover;
+			productName = KataMarsRover;
+			productReference = CEF56C071FE273B900487496 /* KataMarsRover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF56C1A1FE273B900487496 /* KataMarsRoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF56C321FE273B900487496 /* Build configuration list for PBXNativeTarget "KataMarsRoverTests" */;
+			buildPhases = (
+				CEF56C171FE273B900487496 /* Sources */,
+				CEF56C181FE273B900487496 /* Frameworks */,
+				CEF56C191FE273B900487496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF56C1D1FE273B900487496 /* PBXTargetDependency */,
+			);
+			name = KataMarsRoverTests;
+			productName = KataMarsRoverTests;
+			productReference = CEF56C1B1FE273B900487496 /* KataMarsRoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEF56C251FE273B900487496 /* KataMarsRoverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF56C351FE273B900487496 /* Build configuration list for PBXNativeTarget "KataMarsRoverUITests" */;
+			buildPhases = (
+				CEF56C221FE273B900487496 /* Sources */,
+				CEF56C231FE273B900487496 /* Frameworks */,
+				CEF56C241FE273B900487496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF56C281FE273B900487496 /* PBXTargetDependency */,
+			);
+			name = KataMarsRoverUITests;
+			productName = KataMarsRoverUITests;
+			productReference = CEF56C261FE273B900487496 /* KataMarsRoverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF56BFF1FE273B800487496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Liquid Squad";
+				TargetAttributes = {
+					CEF56C061FE273B900487496 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CEF56C1A1FE273B900487496 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEF56C061FE273B900487496;
+					};
+					CEF56C251FE273B900487496 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEF56C061FE273B900487496;
+					};
+				};
+			};
+			buildConfigurationList = CEF56C021FE273B800487496 /* Build configuration list for PBXProject "KataMarsRover" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF56BFE1FE273B800487496;
+			productRefGroup = CEF56C081FE273B900487496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF56C061FE273B900487496 /* KataMarsRover */,
+				CEF56C1A1FE273B900487496 /* KataMarsRoverTests */,
+				CEF56C251FE273B900487496 /* KataMarsRoverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF56C051FE273B900487496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF56C151FE273B900487496 /* LaunchScreen.storyboard in Resources */,
+				CEF56C121FE273B900487496 /* Assets.xcassets in Resources */,
+				CEF56C101FE273B900487496 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF56C191FE273B900487496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF56C241FE273B900487496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF56C031FE273B900487496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF56C0D1FE273B900487496 /* ViewController.swift in Sources */,
+				CEF56C0B1FE273B900487496 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF56C171FE273B900487496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF56C201FE273B900487496 /* KataMarsRoverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF56C221FE273B900487496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF56C2B1FE273B900487496 /* KataMarsRoverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF56C1D1FE273B900487496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF56C061FE273B900487496 /* KataMarsRover */;
+			targetProxy = CEF56C1C1FE273B900487496 /* PBXContainerItemProxy */;
+		};
+		CEF56C281FE273B900487496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF56C061FE273B900487496 /* KataMarsRover */;
+			targetProxy = CEF56C271FE273B900487496 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEF56C0E1FE273B900487496 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF56C0F1FE273B900487496 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF56C131FE273B900487496 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF56C141FE273B900487496 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF56C2D1FE273B900487496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF56C2E1FE273B900487496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF56C301FE273B900487496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP3J6C7KBY;
+				INFOPLIST_FILE = KataMarsRover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquidsquad.KataMarsRover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF56C311FE273B900487496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP3J6C7KBY;
+				INFOPLIST_FILE = KataMarsRover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquidsquad.KataMarsRover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEF56C331FE273B900487496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP3J6C7KBY;
+				INFOPLIST_FILE = KataMarsRoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquidsquad.KataMarsRoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KataMarsRover.app/KataMarsRover";
+			};
+			name = Debug;
+		};
+		CEF56C341FE273B900487496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP3J6C7KBY;
+				INFOPLIST_FILE = KataMarsRoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquidsquad.KataMarsRoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KataMarsRover.app/KataMarsRover";
+			};
+			name = Release;
+		};
+		CEF56C361FE273B900487496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP3J6C7KBY;
+				INFOPLIST_FILE = KataMarsRoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquidsquad.KataMarsRoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KataMarsRover;
+			};
+			name = Debug;
+		};
+		CEF56C371FE273B900487496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP3J6C7KBY;
+				INFOPLIST_FILE = KataMarsRoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquidsquad.KataMarsRoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KataMarsRover;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF56C021FE273B800487496 /* Build configuration list for PBXProject "KataMarsRover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF56C2D1FE273B900487496 /* Debug */,
+				CEF56C2E1FE273B900487496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF56C2F1FE273B900487496 /* Build configuration list for PBXNativeTarget "KataMarsRover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF56C301FE273B900487496 /* Debug */,
+				CEF56C311FE273B900487496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF56C321FE273B900487496 /* Build configuration list for PBXNativeTarget "KataMarsRoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF56C331FE273B900487496 /* Debug */,
+				CEF56C341FE273B900487496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF56C351FE273B900487496 /* Build configuration list for PBXNativeTarget "KataMarsRoverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF56C361FE273B900487496 /* Debug */,
+				CEF56C371FE273B900487496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF56BFF1FE273B800487496 /* Project object */;
+}
