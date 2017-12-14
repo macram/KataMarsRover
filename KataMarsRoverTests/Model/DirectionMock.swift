@@ -23,15 +23,15 @@ class DirectionMocks: Directionable {
     
     func turnRight() -> Directionable {
         turnedRight = true
-        return Direction.South
+        return Direction.East
     }
     
     func turnLeft() -> Directionable {
         turnedLeft = true
-        return Direction.North
+        return Direction.West
     }
     
     var currentDirection: Direction {
-        return Direction.East
+        return Direction.North
     }
 }

@@ -69,29 +69,26 @@ class KataMarsRoverTests: XCTestCase {
         XCTAssertEqual(sut!.currentDirection.currentDirection, Rover.DEFAULT_DIRECTION)
     }
 
-    func testInitDirectionIsS() {
+    func testInitDirectionIsNorth() {
         //Assert
         sut = Rover(direction: MAIN_DIR)
 
         XCTAssertEqual(sut!.currentDirection.currentDirection, MAIN_DIR)
     }
 
-    func testTurnRoverLeftReturnsWest() {
+    func testMoveRoverLeftReturnsWest() {
         sut = Rover(direction: MAIN_DIR)
+        sut!.currentDirection = DirectionMocks()
+        sut!.move(movements: "L")
 
-        XCTAssertEqual(sut!.currentDirection.turnLeft().currentDirection, Direction.West)
+        XCTAssertEqual(sut!.currentDirection.currentDirection, Direction.West)
     }
 
-    func testTurnRoverRightReturnsEast() {
+    func testMoveRoverRightReturnsEast() {
         sut = Rover(direction: MAIN_DIR)
-
-        XCTAssertEqual(sut!.currentDirection.turnRight().currentDirection, Direction.East)
-    }
-
-    func testMoveLeftThenRightReturnsTheSame() {
-        let initialDirection = sut!.currentDirection
-        sut!.move(movements: "LR")
-
-        XCTAssertEqual(sut!.currentDirection.currentDirection, initialDirection.currentDirection)
+        sut!.currentDirection = DirectionMocks()
+        sut!.move(movements: "R")
+        
+        XCTAssertEqual(sut!.currentDirection.currentDirection, Direction.East)
     }
 }
