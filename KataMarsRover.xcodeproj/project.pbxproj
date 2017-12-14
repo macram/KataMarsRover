@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEA6D0AD1FE2CA3F00FCD522 /* DirectionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6D0AC1FE2CA3F00FCD522 /* DirectionMock.swift */; };
+		CEA6D0B11FE2CE5F00FCD522 /* DirectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6D0B01FE2CE5F00FCD522 /* DirectionTests.swift */; };
 		CEF56C0B1FE273B900487496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C0A1FE273B900487496 /* AppDelegate.swift */; };
 		CEF56C0D1FE273B900487496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C0C1FE273B900487496 /* ViewController.swift */; };
 		CEF56C101FE273B900487496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF56C0E1FE273B900487496 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		CEF56C201FE273B900487496 /* RoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C1F1FE273B900487496 /* RoverTests.swift */; };
 		CEF56C2B1FE273B900487496 /* KataMarsRoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C2A1FE273B900487496 /* KataMarsRoverUITests.swift */; };
 		CEF56C3B1FE2748600487496 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C3A1FE2748600487496 /* Rover.swift */; };
+		CEF56C401FE2C5E300487496 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C3F1FE2C5E300487496 /* Direction.swift */; };
+		CEF56C411FE2C6B500487496 /* Directionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C3C1FE2C55300487496 /* Directionable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEA6D0AC1FE2CA3F00FCD522 /* DirectionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionMock.swift; sourceTree = "<group>"; };
+		CEA6D0B01FE2CE5F00FCD522 /* DirectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionTests.swift; sourceTree = "<group>"; };
 		CEF56C071FE273B900487496 /* KataMarsRover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KataMarsRover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF56C0A1FE273B900487496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF56C0C1FE273B900487496 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		CEF56C2A1FE273B900487496 /* KataMarsRoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataMarsRoverUITests.swift; sourceTree = "<group>"; };
 		CEF56C2C1FE273B900487496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEF56C3A1FE2748600487496 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
+		CEF56C3C1FE2C55300487496 /* Directionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directionable.swift; sourceTree = "<group>"; };
+		CEF56C3F1FE2C5E300487496 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,8 @@
 		CEF56C1E1FE273B900487496 /* KataMarsRoverTests */ = {
 			isa = PBXGroup;
 			children = (
+				CEA6D0B01FE2CE5F00FCD522 /* DirectionTests.swift */,
+				CEF56C1F1FE273B900487496 /* RoverTests.swift */,
 				CEF56C381FE273D200487496 /* Model */,
 				CEF56C211FE273B900487496 /* Info.plist */,
 			);
@@ -131,7 +141,7 @@
 		CEF56C381FE273D200487496 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CEF56C1F1FE273B900487496 /* RoverTests.swift */,
+				CEA6D0AC1FE2CA3F00FCD522 /* DirectionMock.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -139,7 +149,9 @@
 		CEF56C391FE2746E00487496 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CEF56C3C1FE2C55300487496 /* Directionable.swift */,
 				CEF56C3A1FE2748600487496 /* Rover.swift */,
+				CEF56C3F1FE2C5E300487496 /* Direction.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -278,6 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF56C401FE2C5E300487496 /* Direction.swift in Sources */,
+				CEF56C411FE2C6B500487496 /* Directionable.swift in Sources */,
 				CEF56C0D1FE273B900487496 /* ViewController.swift in Sources */,
 				CEF56C0B1FE273B900487496 /* AppDelegate.swift in Sources */,
 				CEF56C3B1FE2748600487496 /* Rover.swift in Sources */,
@@ -288,7 +302,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA6D0B11FE2CE5F00FCD522 /* DirectionTests.swift in Sources */,
 				CEF56C201FE273B900487496 /* RoverTests.swift in Sources */,
+				CEA6D0AD1FE2CA3F00FCD522 /* DirectionMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
