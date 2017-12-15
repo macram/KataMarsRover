@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites name='KataMarsRoverUITests.xctest' tests='22' failures='0'>
   <testsuite name='KataMarsRoverTests.DirectionTests' tests='2' failures='0'>
-    <testcase classname='KataMarsRoverTests.DirectionTests' name='testLeftCommandInvokesTurnLeftOfDirection' time='0.002'/>
-    <testcase classname='KataMarsRoverTests.DirectionTests' name='testRightCommandInvokesTurnRightOfDirection' time='0.000'/>
+    <testcase classname='KataMarsRoverTests.DirectionTests' name='testLeftCommandInvokesTurnLeftOfDirection' time='0.005'/>
+    <testcase classname='KataMarsRoverTests.DirectionTests' name='testRightCommandInvokesTurnRightOfDirection' time='0.001'/>
   </testsuite>
   <testsuite name='KataMarsRoverTests.KataMarsRoverTests' tests='19' failures='0'>
-    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testDefaultDirectionIsNorth' time='0.004'/>
-    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testGoBackFrom0to99Y' time='0.006'/>
-    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testGoBackFromDefaultStateIncrementsY' time='0.001'/>
+    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testDefaultDirectionIsNorth' time='0.014'/>
+    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testGoBackFrom0to99Y' time='0.019'/>
+    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testGoBackFromDefaultStateIncrementsY' time='0.002'/>
     <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testGoForwardFrom0to99X' time='0.000'/>
     <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testGoForwardFrom99to0X' time='0.000'/>
     <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testGoForwardFrom99To0Y' time='0.000'/>
-    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testGoForwardFromDefaultStateIncrementsY' time='0.000'/>
-    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testInitDirectionIsNorth' time='0.000'/>
-    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testInitialRoverIsAtDefaultX' time='0.000'/>
-    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testInitialRoverIsAtDefaultY' time='0.000'/>
-    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testInitialXPositionIs0' time='0.000'/>
-    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testInitialYPositionIs0' time='0.000'/>
-    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testInitRoverAtPositionX' time='0.000'/>
+    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testGoForwardFromDefaultStateIncrementsY' time='0.001'/>
+    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testInitDirectionIsNorth' time='0.001'/>
+    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testInitialRoverIsAtDefaultX' time='0.001'/>
+    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testInitialRoverIsAtDefaultY' time='0.001'/>
+    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testInitialXPositionIs0' time='0.001'/>
+    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testInitialYPositionIs0' time='0.001'/>
+    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testInitRoverAtPositionX' time='0.001'/>
     <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testInitRoverAtPositionY' time='0.001'/>
-    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testMoveRoverLeftReturnsWest' time='0.000'/>
-    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testMoveRoverRightReturnsEast' time='0.000'/>
-    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testRotateLeftAndGoForwardDecrementsX' time='0.000'/>
-    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testRotateRightAndGoForwardIngrementsX' time='0.000'/>
-    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testSutIsNotNil' time='0.018'/>
+    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testMoveRoverLeftReturnsWest' time='0.001'/>
+    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testMoveRoverRightReturnsEast' time='0.001'/>
+    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testRotateLeftAndGoForwardDecrementsX' time='0.001'/>
+    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testRotateRightAndGoForwardIngrementsX' time='0.001'/>
+    <testcase classname='KataMarsRoverTests.KataMarsRoverTests' name='testSutIsNotNil' time='0.043'/>
   </testsuite>
   <testsuite name='KataMarsRoverUITests.KataMarsRoverUITests' tests='1' failures='0'>
-    <testcase classname='KataMarsRoverUITests.KataMarsRoverUITests' name='testExample' time='4.522'/>
+    <testcase classname='KataMarsRoverUITests.KataMarsRoverUITests' name='testExample' time='4.521'/>
   </testsuite>
 </testsuites>
