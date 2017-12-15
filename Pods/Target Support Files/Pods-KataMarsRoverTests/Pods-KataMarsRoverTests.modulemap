@@ -1,0 +1,6 @@
+framework module Pods_KataMarsRoverTests {
+  umbrella header "Pods-KataMarsRoverTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
