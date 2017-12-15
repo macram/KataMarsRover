@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A4B8F39B277F49B7A86E395 /* Pods_KataMarsRover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F87BC4F1BECA31BF6E63593 /* Pods_KataMarsRover.framework */; };
+		639C3F49EE9C9D8B18A02996 /* Pods_KataMarsRoverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6460BF7C3488A9664D741A /* Pods_KataMarsRoverTests.framework */; };
 		CEA6D0AD1FE2CA3F00FCD522 /* DirectionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6D0AC1FE2CA3F00FCD522 /* DirectionMock.swift */; };
 		CEA6D0B11FE2CE5F00FCD522 /* DirectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6D0B01FE2CE5F00FCD522 /* DirectionTests.swift */; };
+		CED213F21FE3E38700AFE541 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = CED213F11FE3E38700AFE541 /* .swiftlint.yml */; };
 		CEF56C0B1FE273B900487496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C0A1FE273B900487496 /* AppDelegate.swift */; };
 		CEF56C0D1FE273B900487496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C0C1FE273B900487496 /* ViewController.swift */; };
 		CEF56C101FE273B900487496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF56C0E1FE273B900487496 /* Main.storyboard */; };
@@ -19,6 +22,7 @@
 		CEF56C3B1FE2748600487496 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C3A1FE2748600487496 /* Rover.swift */; };
 		CEF56C401FE2C5E300487496 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C3F1FE2C5E300487496 /* Direction.swift */; };
 		CEF56C411FE2C6B500487496 /* Directionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF56C3C1FE2C55300487496 /* Directionable.swift */; };
+		F03A0B2FD7E78BE20044939F /* Pods_KataMarsRoverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52C0277C5F2FA944BFCE6B8 /* Pods_KataMarsRoverUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		347431BDEAC6614B889E3084 /* Pods-KataMarsRoverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataMarsRoverUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KataMarsRoverUITests/Pods-KataMarsRoverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F87BC4F1BECA31BF6E63593 /* Pods_KataMarsRover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KataMarsRover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B627B534CDB45F0584B3C0BA /* Pods-KataMarsRoverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataMarsRoverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KataMarsRoverTests/Pods-KataMarsRoverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B918894756C2F2ED04BD1FCB /* Pods-KataMarsRover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataMarsRover.release.xcconfig"; path = "Pods/Target Support Files/Pods-KataMarsRover/Pods-KataMarsRover.release.xcconfig"; sourceTree = "<group>"; };
+		BDA29A61E53B0B36A79B1AFB /* Pods-KataMarsRoverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataMarsRoverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KataMarsRoverTests/Pods-KataMarsRoverTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA6460BF7C3488A9664D741A /* Pods_KataMarsRoverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KataMarsRoverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA6D0AC1FE2CA3F00FCD522 /* DirectionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionMock.swift; sourceTree = "<group>"; };
 		CEA6D0B01FE2CE5F00FCD522 /* DirectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionTests.swift; sourceTree = "<group>"; };
+		CED213F11FE3E38700AFE541 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		CEF56C071FE273B900487496 /* KataMarsRover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KataMarsRover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF56C0A1FE273B900487496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF56C0C1FE273B900487496 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +68,9 @@
 		CEF56C3A1FE2748600487496 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
 		CEF56C3C1FE2C55300487496 /* Directionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directionable.swift; sourceTree = "<group>"; };
 		CEF56C3F1FE2C5E300487496 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		E4539533FEC49723F5BD66EF /* Pods-KataMarsRoverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataMarsRoverUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KataMarsRoverUITests/Pods-KataMarsRoverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F52C0277C5F2FA944BFCE6B8 /* Pods_KataMarsRoverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KataMarsRoverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62D42A2481921F305CEF507 /* Pods-KataMarsRover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataMarsRover.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KataMarsRover/Pods-KataMarsRover.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4B8F39B277F49B7A86E395 /* Pods_KataMarsRover.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639C3F49EE9C9D8B18A02996 /* Pods_KataMarsRoverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,19 +94,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03A0B2FD7E78BE20044939F /* Pods_KataMarsRoverUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5410005AC7440816D8F5E6C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F87BC4F1BECA31BF6E63593 /* Pods_KataMarsRover.framework */,
+				CA6460BF7C3488A9664D741A /* Pods_KataMarsRoverTests.framework */,
+				F52C0277C5F2FA944BFCE6B8 /* Pods_KataMarsRoverUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73F064BF21E88F2D3DE65429 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F62D42A2481921F305CEF507 /* Pods-KataMarsRover.debug.xcconfig */,
+				B918894756C2F2ED04BD1FCB /* Pods-KataMarsRover.release.xcconfig */,
+				B627B534CDB45F0584B3C0BA /* Pods-KataMarsRoverTests.debug.xcconfig */,
+				BDA29A61E53B0B36A79B1AFB /* Pods-KataMarsRoverTests.release.xcconfig */,
+				E4539533FEC49723F5BD66EF /* Pods-KataMarsRoverUITests.debug.xcconfig */,
+				347431BDEAC6614B889E3084 /* Pods-KataMarsRoverUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CEF56BFE1FE273B800487496 = {
 			isa = PBXGroup;
 			children = (
+				CED213F11FE3E38700AFE541 /* .swiftlint.yml */,
 				CEF56C091FE273B900487496 /* KataMarsRover */,
 				CEF56C1E1FE273B900487496 /* KataMarsRoverTests */,
 				CEF56C291FE273B900487496 /* KataMarsRoverUITests */,
 				CEF56C081FE273B900487496 /* Products */,
+				73F064BF21E88F2D3DE65429 /* Pods */,
+				5410005AC7440816D8F5E6C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEF56C2F1FE273B900487496 /* Build configuration list for PBXNativeTarget "KataMarsRover" */;
 			buildPhases = (
+				3D06CBAEC3C22393DAED3701 /* [CP] Check Pods Manifest.lock */,
 				CEF56C031FE273B900487496 /* Sources */,
 				CEF56C041FE273B900487496 /* Frameworks */,
 				CEF56C051FE273B900487496 /* Resources */,
+				64E7BEA98AD3EFCF6430B416 /* [CP] Embed Pods Frameworks */,
+				9600B0AFDC5B610D9BD72416 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,9 +226,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEF56C321FE273B900487496 /* Build configuration list for PBXNativeTarget "KataMarsRoverTests" */;
 			buildPhases = (
+				356BDE8E7709BF0E2F0C3135 /* [CP] Check Pods Manifest.lock */,
 				CEF56C171FE273B900487496 /* Sources */,
 				CEF56C181FE273B900487496 /* Frameworks */,
 				CEF56C191FE273B900487496 /* Resources */,
+				71D00BA4D86843F5644AD2D8 /* [CP] Embed Pods Frameworks */,
+				2348DEBF69D892FF384F08CF /* [CP] Copy Pods Resources */,
+				CED213F01FE3DEB300AFE541 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -198,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEF56C351FE273B900487496 /* Build configuration list for PBXNativeTarget "KataMarsRoverUITests" */;
 			buildPhases = (
+				CEE7AB8131CF4286EEB58BB5 /* [CP] Check Pods Manifest.lock */,
 				CEF56C221FE273B900487496 /* Sources */,
 				CEF56C231FE273B900487496 /* Frameworks */,
 				CEF56C241FE273B900487496 /* Resources */,
+				217DA2B2F8AD262A96EA24E2 /* [CP] Embed Pods Frameworks */,
+				4C2A102B2F7A94BBA87AA792 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED213F21FE3E38700AFE541 /* .swiftlint.yml in Resources */,
 				CEF56C151FE273B900487496 /* LaunchScreen.storyboard in Resources */,
 				CEF56C121FE273B900487496 /* Assets.xcassets in Resources */,
 				CEF56C101FE273B900487496 /* Main.storyboard in Resources */,
@@ -284,6 +338,167 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		217DA2B2F8AD262A96EA24E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KataMarsRoverUITests/Pods-KataMarsRoverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2348DEBF69D892FF384F08CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KataMarsRoverTests/Pods-KataMarsRoverTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		356BDE8E7709BF0E2F0C3135 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KataMarsRoverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D06CBAEC3C22393DAED3701 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KataMarsRover-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C2A102B2F7A94BBA87AA792 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KataMarsRoverUITests/Pods-KataMarsRoverUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64E7BEA98AD3EFCF6430B416 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KataMarsRover/Pods-KataMarsRover-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71D00BA4D86843F5644AD2D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KataMarsRoverTests/Pods-KataMarsRoverTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9600B0AFDC5B610D9BD72416 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KataMarsRover/Pods-KataMarsRover-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CED213F01FE3DEB300AFE541 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n${PODS_ROOT}/SwiftLint/swiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		CEE7AB8131CF4286EEB58BB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KataMarsRoverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CEF56C031FE273B900487496 /* Sources */ = {
@@ -460,6 +675,7 @@
 		};
 		CEF56C301FE273B900487496 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62D42A2481921F305CEF507 /* Pods-KataMarsRover.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +691,7 @@
 		};
 		CEF56C311FE273B900487496 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B918894756C2F2ED04BD1FCB /* Pods-KataMarsRover.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +707,7 @@
 		};
 		CEF56C331FE273B900487496 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B627B534CDB45F0584B3C0BA /* Pods-KataMarsRoverTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +725,7 @@
 		};
 		CEF56C341FE273B900487496 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA29A61E53B0B36A79B1AFB /* Pods-KataMarsRoverTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +743,7 @@
 		};
 		CEF56C361FE273B900487496 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4539533FEC49723F5BD66EF /* Pods-KataMarsRoverUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +760,7 @@
 		};
 		CEF56C371FE273B900487496 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 347431BDEAC6614B889E3084 /* Pods-KataMarsRoverUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

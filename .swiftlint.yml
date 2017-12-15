@@ -1,0 +1,15 @@
+opt_in_rules: # some rules are only opt-in
+- empty_count
+# Find all the available rules by running:
+# swiftlint rules
+#included: # paths to include during linting. `--path` is ignored if present.
+#- Source
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+#- Carthage
+- Pods
+
+file_length:
+warning: 10
+error: 20
+
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, junit, html, emoji)

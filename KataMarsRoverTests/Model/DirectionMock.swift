@@ -20,18 +20,18 @@ class DirectionMocks: Directionable {
 
     var turnedLeft = false
     var turnedRight = false
-    
+
     func turnRight() -> Directionable {
         turnedRight = true
-        return Direction.East
+        return Direction.east
     }
-    
+
     func turnLeft() -> Directionable {
         turnedLeft = true
-        return Direction.West
+        return Direction.west
     }
-    
+
     var currentDirection: Direction {
-        return Direction.North
+        return Direction.north
     }
 }

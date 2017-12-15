@@ -10,28 +10,28 @@ import Foundation
 
 enum Direction: Directionable {
         
-    case North
-    case East
-    case South
-    case West
+    case north
+    case east
+    case south
+    case west
     
     func turnRight() -> Directionable {
         switch currentDirection {
-        case Direction.North: return Direction.East
-        case Direction.East: return Direction.South
-        case Direction.South: return Direction.West
-        case Direction.West: return Direction.North
-        default: return Direction.North
+        case Direction.north: return Direction.east
+        case Direction.east: return Direction.south
+        case Direction.south: return Direction.west
+        case Direction.west: return Direction.north
+        default: return Direction.north
         }
     }
     
     func turnLeft() -> Directionable {
         switch currentDirection {
-        case Direction.North: return Direction.West
-        case Direction.East: return Direction.North
-        case Direction.South: return Direction.East
-        case Direction.West: return Direction.South
-        default: return Direction.North
+        case Direction.north: return Direction.west
+        case Direction.east: return Direction.north
+        case Direction.south: return Direction.east
+        case Direction.west: return Direction.south
+        default: return Direction.north
         }
     }
     

@@ -13,10 +13,10 @@ class KataMarsRoverTests: XCTestCase {
     
     var sut: Rover?
     
-    let MAIN_X = 3
-    let MAIN_Y = 4
-    let MAIN_DIR: Direction = Direction.North
-    
+    let MAINX = 3
+    let MAINY = 4
+    let MAINDIR: Direction = Direction.north
+
     override func setUp() {
         super.setUp()
         sut = Rover()
@@ -26,7 +26,7 @@ class KataMarsRoverTests: XCTestCase {
         sut = nil
         super.tearDown()
     }
-    
+
     func testSutIsNotNil() {
         //Assert
         XCTAssertNotNil(sut)
@@ -34,61 +34,109 @@ class KataMarsRoverTests: XCTestCase {
     
     func testInitialXPositionIs0() {
         //Assert
-        XCTAssertEqual(0, Rover.DEFAULT_X)
+        XCTAssertEqual(50, Rover.DEFAULTX)
     }
 
     func testInitialYPositionIs0() {
         //Assert
-        XCTAssertEqual(0, Rover.DEFAULT_Y)
+        XCTAssertEqual(50, Rover.DEFAULTY)
     }
-    
+
     func testInitialRoverIsAtDefaultX() {
         //Assert
-        XCTAssertEqual(sut!.x, Rover.DEFAULT_X)
+        XCTAssertEqual(sut!.coordinateX, Rover.DEFAULTX)
     }
-    
+
     func testInitialRoverIsAtDefaultY() {
         //Assert
-        XCTAssertEqual(sut!.y, Rover.DEFAULT_Y)
+        XCTAssertEqual(sut!.coordinateY, Rover.DEFAULTY)
     }
-    
+
     func testInitRoverAtPositionX() {
-        sut = Rover(x: MAIN_X)
-        
-        XCTAssertEqual(sut!.x, MAIN_X)
+        sut = Rover(x: MAINX)
+
+        XCTAssertEqual(sut!.coordinateX, MAINX)
     }
-    
+
     func testInitRoverAtPositionY() {
-        sut = Rover(y: MAIN_Y)
-        
-        XCTAssertEqual(sut!.y, MAIN_Y)
+        sut = Rover(y: MAINY)
+
+        XCTAssertEqual(sut!.coordinateY, MAINY)
     }
-    
+
     func testDefaultDirectionIsNorth() {
         //Assert
-        XCTAssertEqual(sut!.currentDirection.currentDirection, Rover.DEFAULT_DIRECTION)
+        XCTAssertEqual(sut!.currentDirection.currentDirection, Rover.DEFAULTDIRECTION)
     }
 
     func testInitDirectionIsNorth() {
         //Assert
-        sut = Rover(direction: MAIN_DIR)
+        sut = Rover(direction: MAINDIR)
 
-        XCTAssertEqual(sut!.currentDirection.currentDirection, MAIN_DIR)
+        XCTAssertEqual(sut!.currentDirection.currentDirection, MAINDIR)
     }
 
     func testMoveRoverLeftReturnsWest() {
-        sut = Rover(direction: MAIN_DIR)
+        sut = Rover(direction: MAINDIR)
         sut!.currentDirection = DirectionMocks()
         sut!.move(movements: "L")
 
-        XCTAssertEqual(sut!.currentDirection.currentDirection, Direction.West)
+        XCTAssertEqual(sut!.currentDirection.currentDirection, Direction.west)
     }
 
     func testMoveRoverRightReturnsEast() {
-        sut = Rover(direction: MAIN_DIR)
+        sut = Rover(direction: MAINDIR)
         sut!.currentDirection = DirectionMocks()
         sut!.move(movements: "R")
         
-        XCTAssertEqual(sut!.currentDirection.currentDirection, Direction.East)
+        XCTAssertEqual(sut!.currentDirection.currentDirection, Direction.east)
+    }
+    
+    func testGoForwardFromDefaultStateIncrementsY() {
+        sut!.currentDirection = DirectionMocks()
+        sut!.move(movements: "F")
+        XCTAssertEqual(Rover.DEFAULTY+1, sut!.coordinateY)
+    }
+    
+    func testGoBackFromDefaultStateIncrementsY() {
+        sut!.currentDirection = DirectionMocks()
+        sut!.move(movements: "B")
+        XCTAssertEqual(Rover.DEFAULTY-1, sut!.coordinateY)
+    }
+    
+    func testRotateRightAndGoForwardIngrementsX() {
+        sut!.currentDirection = DirectionMocks()
+        sut!.move(movements: "RF")
+        XCTAssertEqual(Rover.DEFAULTX+1, sut!.coordinateX)
+    }
+    
+    func testRotateLeftAndGoForwardDecrementsX() {
+        sut!.currentDirection = DirectionMocks()
+        sut!.move(movements: "LF")
+        XCTAssertEqual(Rover.DEFAULTX-1, sut!.coordinateX)
+    }
+    
+    func testGoForwardFrom99To0Y() {
+        sut = Rover(x: 99, y: 99)
+        sut!.move(movements: "F")
+        XCTAssertEqual(0, sut!.coordinateY)
+    }
+    
+    func testGoBackFrom0to99Y() {
+        sut = Rover(x: 0, y: 0)
+        sut!.move(movements: "B")
+        XCTAssertEqual(MAXY-1, sut!.coordinateY)
+    }
+    
+    func testGoForwardFrom99to0X() {
+        sut = Rover(x: 99, y: 99)
+        sut!.move(movements: "RF")
+        XCTAssertEqual(0, sut!.coordinateX)
+    }
+    
+    func testGoForwardFrom0to99X() {
+        sut = Rover(x: 0, y: 0)
+        sut!.move(movements: "LF")
+        XCTAssertEqual(MAXX-1, sut!.coordinateX)
     }
 }
