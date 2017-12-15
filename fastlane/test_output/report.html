@@ -112,6 +112,8 @@
         <section id="counters">
           <h2 id="test-count"><span class="number">22</span> tests</h2>
           
+            <h2 id="fail-count"><span class="number">1</span> failures</h2>
+          
         </section>
         <section id="segment-bar">
           <a id="all-segment" onclick="selectSegment(this);" class="selected">All</a><a id="failing-segment" onclick="selectSegment(this);">Failing</a><a id="passing-segment" onclick="selectSegment(this);">Passing</a>
@@ -132,7 +134,7 @@
               <tr class="test passing "  onclick="toggleDetails('testLeftCommandInvokesTurnLeftOfDirection');">
                 <td>
                   
-                    <h3 class="time">0.005s</h3>
+                    <h3 class="time">0.002s</h3>
                   
                 </td>
                 <td><h3 class="title">testLeftCommandInvokesTurnLeftOfDirection</h3></td>
@@ -143,7 +145,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('testRightCommandInvokesTurnRightOfDirection');">
                 <td>
                   
-                    <h3 class="time">0.001s</h3>
+                    <h3 class="time">0.000s</h3>
                   
                 </td>
                 <td><h3 class="title">testRightCommandInvokesTurnRightOfDirection</h3></td>
@@ -155,7 +157,7 @@
         </section>
       
         
-        <section class="test-suite passing" id="KataMarsRoverTests.KataMarsRoverTests">
+        <section class="test-suite failing" id="KataMarsRoverTests.KataMarsRoverTests">
           <section class="heading" onclick="toggleTests(this);">
             <h3 class="title">KataMarsRoverTests.KataMarsRoverTests</h3>
           </section>
@@ -166,7 +168,7 @@
               <tr class="test passing "  onclick="toggleDetails('testDefaultDirectionIsNorth');">
                 <td>
                   
-                    <h3 class="time">0.014s</h3>
+                    <h3 class="time">0.004s</h3>
                   
                 </td>
                 <td><h3 class="title">testDefaultDirectionIsNorth</h3></td>
@@ -177,7 +179,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('testGoBackFrom0to99Y');">
                 <td>
                   
-                    <h3 class="time">0.019s</h3>
+                    <h3 class="time">0.006s</h3>
                   
                 </td>
                 <td><h3 class="title">testGoBackFrom0to99Y</h3></td>
@@ -188,7 +190,7 @@
               <tr class="test passing "  onclick="toggleDetails('testGoBackFromDefaultStateIncrementsY');">
                 <td>
                   
-                    <h3 class="time">0.002s</h3>
+                    <h3 class="time">0.001s</h3>
                   
                 </td>
                 <td><h3 class="title">testGoBackFromDefaultStateIncrementsY</h3></td>
@@ -287,7 +289,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('testInitialYPositionIs0');">
                 <td>
                   
-                    <h3 class="time">0.001s</h3>
+                    <h3 class="time">0.000s</h3>
                   
                 </td>
                 <td><h3 class="title">testInitialYPositionIs0</h3></td>
@@ -298,7 +300,7 @@
               <tr class="test passing "  onclick="toggleDetails('testInitRoverAtPositionX');">
                 <td>
                   
-                    <h3 class="time">0.001s</h3>
+                    <h3 class="time">0.000s</h3>
                   
                 </td>
                 <td><h3 class="title">testInitRoverAtPositionX</h3></td>
@@ -309,7 +311,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('testInitRoverAtPositionY');">
                 <td>
                   
-                    <h3 class="time">0.001s</h3>
+                    <h3 class="time">0.000s</h3>
                   
                 </td>
                 <td><h3 class="title">testInitRoverAtPositionY</h3></td>
@@ -320,7 +322,7 @@
               <tr class="test passing "  onclick="toggleDetails('testMoveRoverLeftReturnsWest');">
                 <td>
                   
-                    <h3 class="time">0.001s</h3>
+                    <h3 class="time">0.000s</h3>
                   
                 </td>
                 <td><h3 class="title">testMoveRoverLeftReturnsWest</h3></td>
@@ -331,7 +333,7 @@
               <tr class="test passing odd"  onclick="toggleDetails('testMoveRoverRightReturnsEast');">
                 <td>
                   
-                    <h3 class="time">0.001s</h3>
+                    <h3 class="time">0.000s</h3>
                   
                 </td>
                 <td><h3 class="title">testMoveRoverRightReturnsEast</h3></td>
@@ -339,21 +341,36 @@
               
             
               
-              <tr class="test passing "  onclick="toggleDetails('testRotateLeftAndGoForwardDecrementsX');">
+              <tr class="test failing "  onclick="toggleDetails('testRotateLeftAndGoForwardDecrementsX');">
                 <td>
-                  
-                    <h3 class="time">0.001s</h3>
                   
                 </td>
                 <td><h3 class="title">testRotateLeftAndGoForwardDecrementsX</h3></td>
               </tr>
+              
+                <tr class="details failing testRotateLeftAndGoForwardDecrementsX">
+                  <td></td>
+                  <td>
+                    
+                      <section class="test-detail reason">XCTAssertEqual failed: ("49") is not equal to ("50") - </section>
+                    
+                    
+                      <section class="test-detail snippet">        <span class="n">sut</span><span class="o">!.</span><span class="nf">move</span><span class="p">(</span><span class="nv">movements</span><span class="p">:</span> <span class="s">"LF"</span><span class="p">)</span>
+        <span class="kt">XCTAssertEqual</span><span class="p">(</span><span class="kt">Rover</span><span class="o">.</span><span class="kt">DEFAULTX</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">sut</span><span class="o">!.</span><span class="n">coordinateX</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+    <span class="p">}</span>
+</section>
+                      <section class="test-detail">/Users/manu.mateos/Code/Testing/KataMarsRover/KataMarsRoverTests/RoverTests.swift:116</section>
+                    
+                    
+                  </td>
+                </tr>
               
             
               
               <tr class="test passing odd"  onclick="toggleDetails('testRotateRightAndGoForwardIngrementsX');">
                 <td>
                   
-                    <h3 class="time">0.001s</h3>
+                    <h3 class="time">0.000s</h3>
                   
                 </td>
                 <td><h3 class="title">testRotateRightAndGoForwardIngrementsX</h3></td>
@@ -364,7 +381,7 @@
               <tr class="test passing "  onclick="toggleDetails('testSutIsNotNil');">
                 <td>
                   
-                    <h3 class="time">0.043s</h3>
+                    <h3 class="time">0.005s</h3>
                   
                 </td>
                 <td><h3 class="title">testSutIsNotNil</h3></td>
@@ -387,7 +404,7 @@
               <tr class="test passing "  onclick="toggleDetails('testExample');">
                 <td>
                   
-                    <h3 class="time">4.521s</h3>
+                    <h3 class="time">4.410s</h3>
                   
                 </td>
                 <td><h3 class="title">testExample</h3></td>
