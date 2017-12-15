@@ -31,8 +31,8 @@ platform :ios do
   desc "This will also make sure the profile is up to date"
   lane :beta do
     # sync_code_signing(type: "appstore") # more information: https://codesigning.guide
-    build_app # more options available
-    upload_to_testflight
+    build_app(scheme: "KataMarsRover") # more options available
+    #upload_to_testflight
 
     # sh "your_script.sh"
     # You can also use other beta testing services here (run `fastlane actions`)

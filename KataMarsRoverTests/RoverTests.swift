@@ -113,7 +113,7 @@ class KataMarsRoverTests: XCTestCase {
     func testRotateLeftAndGoForwardDecrementsX() {
         sut!.currentDirection = DirectionMocks()
         sut!.move(movements: "LF")
-        XCTAssertEqual(Rover.DEFAULTX-1, sut!.coordinateX+1)
+        XCTAssertEqual(Rover.DEFAULTX-1, sut!.coordinateX)
     }
     
     func testGoForwardFrom99To0Y() {
